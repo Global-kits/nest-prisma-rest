@@ -32,6 +32,19 @@
 $ npm install
 ```
 
+## Copy env
+
+```bash
+$ cp .env.example .env
+```
+After that you have to fill env requirements.
+
+## Migrate
+
+```bash
+$ npx prisma migrate dev
+```
+
 ## Running the app
 
 ```bash
@@ -58,6 +71,17 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Swagger
+
+```bash
+# go to swagger api user interface.
+$ {app-url}/api
+
+eg. http://localhost:8000/api
+
+
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
@@ -67,6 +91,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## Let me know if you have any issues
+Please write [here](https://github.com/Global-kits/express-prisma-rest/issues).
+
+## Authors
+
+- [@kaungkhantzaw](https://www.github.com/kaungkhantzawdev)
 
 ## License
 
