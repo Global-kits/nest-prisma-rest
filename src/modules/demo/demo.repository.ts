@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 import { Test as TestModel } from '@prisma/client';
 
 @Injectable()
-export class TestingRepository {
+export class DemoRepository {
   constructor(private readonly prismaService: PrismaService) {}
 
   async getById(id: number): Promise<TestModel> {
